@@ -108,6 +108,7 @@
                               outlined
                               :rules="[rules.required]"
                               type="number"
+                              
                             ></v-text-field>
                           </v-col>
                         </v-row>
