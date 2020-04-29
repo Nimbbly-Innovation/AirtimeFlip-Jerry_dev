@@ -120,14 +120,14 @@
                           <v-form @submit.prevent="abuja_prepaid">
                             <v-card-text>
                               <v-row>
-                                <v-col cols="12" md="6" lg="6">
+                                <!-- <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="service_id"
                                     label="Service ID"
                                     outlined
                                     :rules="[rules.required]"
                                   ></v-text-field>
-                                </v-col>
+                                </v-col> -->
                                 <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="meter_number"
@@ -160,14 +160,14 @@
                           <v-form @submit.prevent="ibadan_prepaid">
                             <v-card-text>
                               <v-row>
-                                <v-col cols="12" md="6" lg="6">
+                                <!-- <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="service_id"
                                     label="Service ID"
                                     outlined
                                     :rules="[rules.required]"
                                   ></v-text-field>
-                                </v-col>
+                                </v-col>-->
                                 <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="customer_reference"
@@ -201,14 +201,14 @@
                           <v-form @submit.prevent="ikeja_electric">
                             <v-card-text>
                               <v-row>
-                                <v-col cols="12" md="6" lg="6">
+                                <!-- <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="service_id"
                                     label="Service ID"
                                     outlined
                                     :rules="[rules.required]"
                                   ></v-text-field>
-                                </v-col>
+                                </v-col>-->
                                 <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="customer_number"
@@ -257,14 +257,14 @@
                           <v-form @submit.prevent="kedco_postpaid">
                             <v-card-text>
                               <v-row>
-                                <v-col cols="12" md="6" lg="6">
+                                <!-- <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="service_id"
                                     label="Service ID"
                                     outlined
                                     :rules="[rules.required]"
                                   ></v-text-field>
-                                </v-col>
+                                </v-col>-->
                                 <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="customer_reference"
@@ -297,14 +297,14 @@
                           <v-form @submit.prevent="kedco_prepaid">
                             <v-card-text>
                               <v-row>
-                                <v-col cols="12" md="6" lg="6">
+                                <!-- <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="service_id"
                                     label="Service ID"
                                     outlined
                                     :rules="[rules.required]"
                                   ></v-text-field>
-                                </v-col>
+                                </v-col>-->
                                 <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="customer_reference"
@@ -349,14 +349,14 @@
                           <v-form @submit.prevent="waec">
                             <v-card-text>
                               <v-row>
-                                <v-col cols="12" md="6" lg="6">
+                                <!-- <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="service_id"
                                     label="Service ID"
                                     outlined
                                     :rules="[rules.required]"
                                   ></v-text-field>
-                                </v-col>
+                                </v-col> -->
                                 <v-col cols="12" md="6" lg="6">
                                   <v-text-field
                                     v-model="number_of_pins"

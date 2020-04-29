@@ -419,10 +419,10 @@ export const store = new Vuex.Store({
         abujaprepaidService(context, data) {
 
             return new Promise((resolve, reject) => {
-                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token
+                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token + context.service_id
 
                 axios.post('api/v1/services/pay-abuja-prepaid', {
-                    service_id: data.service_id,
+                    // service_id: data.service_id,
                     meter_number: data.meter_number,
                     amount: data.amount
                 })
@@ -438,10 +438,10 @@ export const store = new Vuex.Store({
         ibadanprepaidService(context, data) {
 
             return new Promise((resolve, reject) => {
-                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token
+                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token + context.service_id
 
                 axios.post('api/v1/services/pay-ibadan-prepaid', {
-                    service_id: data.service_id,
+                    // service_id: data.service_id,
                     customer_reference: data.customer_reference,
                     amount: data.amount
                 })
@@ -457,10 +457,10 @@ export const store = new Vuex.Store({
         ikejaelectricService(context, data) {
 
             return new Promise((resolve, reject) => {
-                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token
+                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token + context.service_id
 
                 axios.post('api/v1/services/ikeja-electric-bill', {
-                    service_id: data.service_id,
+                    // service_id: data.service_id,
                     customer_number: data.customer_number,
                     amount: data.amount,
                     phone: data.phone,
@@ -478,10 +478,10 @@ export const store = new Vuex.Store({
         kedcopostpaidService(context, data) {
 
             return new Promise((resolve, reject) => {
-                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token
+                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token +context.service_id
 
                 axios.post('api/v1/services/pay-kedco-postpaid', {
-                    service_id: data.service_id,
+                    // service_id: data.service_id,
                     customer_reference: data.customer_reference,
                     amount: data.amount
                 })
@@ -497,10 +497,10 @@ export const store = new Vuex.Store({
         kedcoprepaidService(context, data) {
 
             return new Promise((resolve, reject) => {
-                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token
+                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token + context.service_id
 
                 axios.post('api/v1/services/pay-kedco-prepaid', {
-                    service_id: data.service_id,
+                    // service_id: data.service_id,
                     customer_reference: data.customer_reference,
                     amount: data.amount
                 })
@@ -516,10 +516,10 @@ export const store = new Vuex.Store({
         waecService(context, data) {
 
             return new Promise((resolve, reject) => {
-                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token
+                axios.defaults.headers.common['Authorization'] = 'Bearer ' + context.state.token + context.service_id
 
                 axios.post('api/v1/services/pay-waec', {
-                    service_id: data.service_id,
+                    // service_id: data.service_id,
                     number_of_pins: data.number_of_pins,
                     price: data.price
                 })
